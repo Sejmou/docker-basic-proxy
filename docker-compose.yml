@@ -6,5 +6,5 @@ services:
     ports:
       - 6969:80
     volumes:
-      - ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
+      - ./nginx.conf:/etc/nginx/nginx.conf
     
